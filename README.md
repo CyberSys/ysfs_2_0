@@ -1,26 +1,25 @@
-# YSFS 2.0 - addon scripts for Blender 2.75+ for creating mesh in SRF & DNM files (for YSFlight simulator game). 
-Addons for Blender < 2.70 here - https://sourceforge.net/p/ysfsblender/code/ci/master/tree/
+# YSFS 2.0 - YSFlight scripts for Blender 2.75+
+Creating, editing and export mesh as SRF & DNM files (for free YSFlight simulator game).
+* http://ysflight.com
 
-## ABOUT
-* It made for adding function for working with YSFLIGHT file formats: SRF, DNM.
+Some of this scripts based on "exportsrf" scripts, originaly created by Mr Mofumofu and licensed under MIT License
+* https://github.com/pasutisu/exportsrf
+
+Addons for Blender older 2.70 placed here:
+* https://sourceforge.net/p/ysfsblender/code/ci/master/tree/
+
+## OPTIONS
+* Add function for export meshes to YSFLIGHT file formats: SRF, DNM.
 * Installing with standard Blender Plugin Install Steps.
 * It will work with upper Blender 2.75.
-
-## Special Thanks
-* Utachy(Nice Debugging for exportsrf!)
-* Mr Mofumofu(Owner of original exportsrf scripts)
-
-### Export SRF
-1. Select single object want to export.
-2. Change mode "Edit Mode" to "Object Mode".
-3. File->Export->SURF Model (.srf)
-4. Save!
+## Export SRF
+Export selected mesh object as single SRF file.
 
 ### Export DNM
-Use this for export all objects in scene to single DNM file.
+Export all objects in scene to single DNM file.
 
 ### Explode SRF
-Export all objects in way where it would be one SRF per one object in scene. 
+Export all objects in scene separatly - one SRF file per each mesh object. 
 
 ### HINT
 * **Smoothing**: Shading -> Faces -> Smooth
@@ -28,3 +27,8 @@ Export all objects in way where it would be one SRF per one object in scene.
 * **Transparent**: Material-> Z-Transparency-> Alpha
 * **Self Lightning**: Material -> Shading -> Emit
 
+## Special Thanks
+* Soji Yamakawa(YSFlight owner)
+* YSFHQ Community(http://forum.ysfhq.com/)
+* Mr Mofumofu(exportsrf scripts developer)
+* Utachy(Nice Debugging for exportsrf!)
