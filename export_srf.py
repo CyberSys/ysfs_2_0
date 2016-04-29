@@ -7,16 +7,16 @@ from bpy_extras.io_utils import (ImportHelper, ExportHelper, unpack_list, unpack
 
 # Infomation
 bl_info = {
-    'name'       : 'SRF format',
-    'description': 'Export SRF, single file.',
+    'name'       : 'YSFS 2.0 - SRF file',
+    'description': 'YSFlight scripts | Export single selected object to SRF file.',
     'author'     : 'Symbian9', 'Mr Mofumofu',
     'version'    : (2, 0, 1),
     'blender'    : (2, 75, 0),
     'location'   : 'File > Import-Export',
     'warning'    : '',
     'wiki_url'   : '',
-    'tracker_url': 'http://github.com/ysfs_2_0/issues/new'
-    'category'   : 'Airplanes 3D'
+    'tracker_url': 'http://github.com/Symbian9/ysfs_2_0/issues/new',
+    'category'   : 'Airplanes 3D',
 }
 
 def export(obj):
