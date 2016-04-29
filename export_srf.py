@@ -9,7 +9,7 @@ from bpy_extras.io_utils import (ImportHelper, ExportHelper, unpack_list, unpack
 bl_info = {
     'name'       : 'YSFS 2.0 - SRF file',
     'description': 'YSFlight scripts | Export single selected object to SRF file.',
-    'author'     : 'Symbian9', 'Mr Mofumofu',
+    'author'     : 'Symbian9, Mr Mofumofu',
     'version'    : (2, 0, 1),
     'blender'    : (2, 75, 0),
     'location'   : 'File > Import-Export',
