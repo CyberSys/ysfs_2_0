@@ -1,12 +1,15 @@
 # YSFS 2.0
 YSFlight scripts for Blender 2.75+, that allow creating, editing and export mesh as SRF & DNM files.
 
-
 Some of this scripts based on "exportsrf" scripts, originaly created by Mr Mofumofu and licensed under MIT License
 * https://github.com/pasutisu/exportsrf
 
 Addons for Blender older 2.70 placed here:
 * https://sourceforge.net/p/ysfsblender/code/ci/master/tree/
+
+##HOW INSTAL
+All files must be placed in one subfolder inside your main Blender addons folder, for example:
+<code>../Blender/2.75/scripts/addons/ysfs_2_0/__init__.py</code>
 
 ## OPTIONS
 * Add function for export meshes to YSFLIGHT file formats: SRF, DNM.
