@@ -8,8 +8,8 @@ Addons for Blender older 2.70 placed here:
 * https://sourceforge.net/p/ysfsblender/code/ci/master/tree/
 
 ##HOW INSTAL
-All files must be placed in one subfolder inside your main Blender addons folder, for example:
-<code>../Blender/2.75/scripts/addons/ysfs_2_0/__init__.py</code>
+All files must be placed in one subfolder (without additional ierarchy) inside your main Blender addons folder:
+<code>../Blender/2.75/scripts/addons/ysfs_2_0/</code>
 
 ## OPTIONS
 * Add function for export meshes to YSFLIGHT file formats: SRF, DNM.
